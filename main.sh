@@ -3,7 +3,7 @@
 #bin bash for popular linux distro. im on nixos.
 
 # Set limit
-THRESHOLD=5
+THRESHOLD=70
 
 # % system disk
 USAGE=$(df -h / | awk 'NR==2 {print $5}' | sed 's/%//')
